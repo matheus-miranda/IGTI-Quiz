@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">IGTI Quiz</string>
+
+    <!-- Main Activity -->
+    <string name="bt_true">Verdadeiro</string>
+    <string name="bt_false">Falso</string>
 </resources>

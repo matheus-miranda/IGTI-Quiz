@@ -1,4 +1,4 @@
-package com.matheusmiranda.igti.igtiquizz
+package com.matheusmiranda.igti.igtiquiz
 
 import org.junit.Test
 
