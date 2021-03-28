@@ -4,4 +4,7 @@
     <!-- Main Activity -->
     <string name="bt_true">Verdadeiro</string>
     <string name="bt_false">Falso</string>
+
+    <!-- Results Activity -->
+    <string name="restart">Reiniciar</string>
 </resources>
