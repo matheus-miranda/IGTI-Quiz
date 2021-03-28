@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
+import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
 
@@ -70,6 +71,9 @@ class MainActivity : AppCompatActivity() {
         btTrue.setOnClickListener {
             if (mAnswer == true) {
                 mCorrectAnswers++
+                Toast.makeText(this, "Acertou!", Toast.LENGTH_SHORT).show()
+            } else {
+                Toast.makeText(this, "Errou!", Toast.LENGTH_SHORT).show()
             }
             mCurrentPosition++
             getCurrentQuestion()
@@ -78,6 +82,9 @@ class MainActivity : AppCompatActivity() {
         btFalse.setOnClickListener {
             if (mAnswer == false) {
                 mCorrectAnswers++
+                Toast.makeText(this, "Acertou!", Toast.LENGTH_SHORT).show()
+            } else {
+                Toast.makeText(this, "Errou!", Toast.LENGTH_SHORT).show()
             }
             mCurrentPosition++
             getCurrentQuestion()
